@@ -1,7 +1,20 @@
-echo "# php" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/KaczmarPL/php.git
-git push -u origin main
+<?php
+// użycie pętli for
+for($i=0;$i<10;$i++)
+{
+  // instrukcje
+	echo $i." ";
+}
+
+echo "<br>";
+
+$i=0;
+while($i<10){
+  echo $i." ";
+  $i++;
+}
+echo "<br>";
+
+$i=0;
+do{echo $i." "; $i++;}
+while($i<10);
